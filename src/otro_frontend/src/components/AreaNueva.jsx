@@ -36,13 +36,13 @@ const Alumnos = () => {
           }
             <div class="card">
                 <div class="card-header">
-                    Registrar área
+                    Registrar colmena
                 </div>
                 <div class="card-body">
                     <form class="form"  onSubmit={guardarArea}>
                     <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre área</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingeniería Eléctrica" />
+                        <label for="nombre" class="form-label">Nombre colmena</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="colmena 1" />
                     </div>
                 
                     <input type="submit" class="btn btn-success" value="Agregar"/>  

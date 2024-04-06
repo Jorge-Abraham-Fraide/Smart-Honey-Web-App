@@ -44,7 +44,7 @@ const AreasICP = () => {
     }
 
     return(
-        <div className="flex items-center justify-center flex-col p-4 w-full">
+        <div className="flex items-center justify-center flex-col p-4 w-full" >
             <h1 className="h1 text-center border-b border-gray-500 pb-2">Hi {principal ? principal : ", connect with Internet Identity to continue"}!</h1>
             {/* Create post section */}
             <form onSubmit={handleSubmit}>

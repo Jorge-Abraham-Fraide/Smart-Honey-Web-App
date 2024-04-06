@@ -65,10 +65,10 @@ const Home = () => {
   
   return (
         <BrowserRouter>
-            <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <nav style={{width:1920}} className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark" >
         
         { principal ? ( 
-            <div className="container-fluid">
+            <div className="container-fluid" >
                 
                     <Link to='/' className="navbar-brand">ICP Credentials</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +81,7 @@ const Home = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Área
+                                Colmena
                             </a>
                             <ul className="dropdown-menu">
                                 <li><Link to='/area-nueva' className="dropdown-item" >Nuevo</Link></li>
@@ -89,18 +89,12 @@ const Home = () => {
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Programas
-                            </a>
                             <ul className="dropdown-menu">
                                 <li><Link to='/programas' className="dropdown-item" >Nuevo</Link></li>
                                 <li><Link to='/programas' className="dropdown-item" >Lista</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Alumnos
-                            </a>
                             <ul className="dropdown-menu">
                                     <li><Link to='/alumnos' className="dropdown-item" >Nuevo</Link></li>
                                 <li><Link to='/alumnos' className="dropdown-item" >Lista</Link></li>
